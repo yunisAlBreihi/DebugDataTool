@@ -16,7 +16,7 @@ public class SaveHandler : MonoBehaviour
         " When replaying data, this will automatically be false.")]
     private bool captureData = true;
 
-    private List<SaveDataBaseClass> saveDatas = new List<SaveDataBaseClass>();
+    private List<SaveDataBase> saveDatas = new List<SaveDataBase>();
     private ReplayDataScriptable replayData = null;
 
     public string JsonPath { get; private set; }
@@ -96,7 +96,7 @@ public class SaveHandler : MonoBehaviour
         }
     }
 
-    public void AddSaveData(SaveDataBaseClass saveData)
+    public void AddSaveData(SaveDataBase saveData)
     {
         saveDatas.Add(saveData);
     }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class SaveLookDirection : SaveDataBaseClass
+public class SaveLookDirection : SaveDataBase
 {
     Camera cam = null;
 

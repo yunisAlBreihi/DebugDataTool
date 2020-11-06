@@ -1,4 +1,4 @@
-﻿public class SavePositionData : SaveDataBaseClass
+﻿public class SavePositionData : SaveDataBase
 {
     protected override void Start()
     {
