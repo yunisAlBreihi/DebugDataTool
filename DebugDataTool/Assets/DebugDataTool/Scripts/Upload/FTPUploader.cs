@@ -13,7 +13,6 @@ public class FTPUploader
     {
         Debug.Log("Path: " + FilePath);
 
-
         WebClient client = new System.Net.WebClient();
         Uri uri = new Uri(FTPHost + "/" + new FileInfo(FilePath).Name);
 
